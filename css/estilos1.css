@@ -1,0 +1,165 @@
+body {
+	margin: 20px;
+	background-color: #02010a;
+	color: white;
+
+}
+
+#menu-principal a {
+	color: white;
+	text-decoration: none;
+}
+
+header {
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  height: 100px;
+  width: 80%;
+  margin: 0 auto;
+  font-family:'Dancing Script';
+
+}
+
+header h1 {
+  height: 50px;
+  width: 50%;
+  margin: 25px 0;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  text-align: left;
+  float: left;
+  line-height: 50px;
+  padding-left: 5%;
+  font-size: 2em;
+}
+
+nav {
+  height: 30px;
+  width: 30%;
+  margin: 35px 0;
+  font-size: 1.3em;
+  position: relative;
+  float: right;
+  padding-right: 5%;
+}
+
+nav a{
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  text-align: left;
+  line-height: 30px;
+  float: right;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#contenido{
+
+  width: 80%;
+	margin: 0 auto;
+
+}
+
+
+img{
+
+	border-radius: 10px;
+border: solid 2px black;
+}
+
+.paisajestotal{
+background:  #d5c75f;
+display:flex;
+
+}
+
+.paisajes img{
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+}
+
+.paisajes1 img{
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+}
+.paisajes2 img{
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+}
+
+#imagen1{
+filter: blur(10px);
+
+}
+
+#imagen2{
+	filter: grayscale(100%);
+}
+
+#imagen3{
+	filter: grayscale(100%);
+}
+
+#imagen6{
+	filter: grayscale(100%);
+}
+#imagen5{
+	filter: sepia(90%);
+}
+.redes img{
+	width: 100%;
+}
+
+footer{
+	background: #C6d5c5;
+	width: 80%;
+	height: 50%;
+	color: black;
+	font-family: 'Dancing Script';
+  border-radius:0px 0px 10px 10px ;
+	margin: 0 auto;
+}
+
+
+footer div{
+display: flex;
+flex-basis: 0;
+flex-grow: 1;
+padding-left: 3%;
+
+}
+
+.contacto{
+	display:flex; flex-direction:column;
+}
+
+.terminos{
+	display:flex; flex-direction:column;
+}
+
+.redes{
+	display:flex; flex-direction:column;
+	width: 10%;
+}
+
+.derechos{
+	display:flex; flex-direction:column;
+}
+
+#face{
+width: 20%;
+
+}
+#twit{
+	width: 20%;
+}
+
+#insta{
+	width: 20%;
+}

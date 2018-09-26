@@ -1,0 +1,155 @@
+body {
+	margin: 20px;
+	background-color: #02010a;
+	color: white;
+
+}
+
+#menu-principal a {
+	color: white;
+	text-decoration: none;
+}
+
+header {
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  height: 100px;
+  width: 80%;
+  margin: 0 auto;
+  font-family:'Dancing Script';
+
+}
+
+header h1 {
+  height: 50px;
+  width: 50%;
+  margin: 25px 0;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  text-align: left;
+  float: left;
+  line-height: 50px;
+  padding-left: 5%;
+  font-size: 2em;
+}
+
+nav {
+  height: 30px;
+  width: 30%;
+  margin: 35px 0;
+  font-size: 1.3em;
+  position: relative;
+  float: right;
+  padding-right: 5%;
+}
+
+nav a{
+  color: white;
+  text-shadow: 2px 2px #02010a;
+  text-align: left;
+  line-height: 30px;
+  float: right;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#contenido{
+
+  width: 80%;
+	margin: 0 auto;
+
+}
+
+
+img {
+border-radius: 10px;
+border: solid 3px black;
+}
+
+
+.contenedor{
+
+background: #82c3a6;
+border: solid 1px black;
+
+}
+
+.contenedor1{
+display:flex;
+color: black;
+background: #d5c75f;
+text-align: center;
+font-family:'Dancing Script';
+padding: 20px;
+border: solid 1px black;
+}
+
+.imagen2{
+	display:flex; flex-direction:column;
+}
+
+.contenedor img{
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 3%;
+	margin-top: 3%;
+
+}
+
+
+.contenedor1 img{
+width: 70%;
+}
+
+
+
+#imagen2 img:hover{
+transform: rotate(10deg);
+border: solid 2px #82c3a6;
+}
+
+#imagen3 img:hover{
+transform: translate( 20px, -5px);
+border: solid 2px #82c3a6;
+}
+
+footer{
+	background: #C6d5c5;
+	width: 80%;
+	height: 50%;
+	color: black;
+	font-family: 'Dancing Script';
+  border-radius:0px 0px 10px 10px ;
+	margin: 0 auto;
+}
+
+
+footer div{
+display: flex;
+flex-basis: 0;
+flex-grow: 1;
+padding-left: 3%;
+
+}
+
+.contacto{
+	display:flex; flex-direction:column;
+}
+
+.terminos{
+	display:flex; flex-direction:column;
+}
+
+.redes{
+	display:flex; flex-direction:column;
+
+}
+
+.derechos{
+	display:flex; flex-direction:column;
+}
+
+.redes img{
+
+	width: 20%
+}
